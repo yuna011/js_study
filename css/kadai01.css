@@ -1,0 +1,68 @@
+#company{
+    display: flex;
+    margin: 16px 0 16px 40px;
+}
+#companyname{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+}
+#nav ul{
+    display: flex;
+}
+#top{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/momizi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+}
+#search{
+    width: 400px;
+    height: 367px;
+    border: 1px solid white;
+    background-color: white;
+    margin-left: 138px;
+}
+#search h2{
+    margin: 25px 0 25px 36px;
+}
+#keyword ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#keyword{
+    text-decoration: none;
+}
+#search h3{
+    text-align: center;
+    font-size: 22px;
+    font-weight: normal;
+    border: 1px solid black;
+}
+#top-text{
+    color: white;
+    text-align: right;
+}
+#top-text h1{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    color: red;
+}
+#math{
+    color: #F17047;
+
+font-family: Inter;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#top-text a{
+    text-decoration: none;
+    color: white;
+
+}
