@@ -13,23 +13,23 @@
         <h1 id="companyname">もみじツーリスト</h1>
     </div>
 
-    <div id="header_bar">
-        <ui>
-            <li><img src="img/circle.png" alt=""><a href="#"></a>広島まるわかり</li>
-            <li><img src="img/circle.png" alt=""><a href="#"></a>観光</li>
-            <li><img src="img/circle.png" alt=""><a href="#"></a>宿泊</li>
-            <li><img src="img/circle.png" alt=""><a href="#"></a>お食事</li>
-            <li><img src="img/circle.png" alt=""><a href="#"></a>ツアー</li>
-        </ui>
-    </div>
+    <header>
+        <ul class="header_bar">
+            <li class="header_list"><img src="img/circle.png" alt=""><a href="#">広島まるわかり</a></li>
+            <li class="header_list"><img src="img/circle.png" alt=""><a href="#">観光</a></li>
+            <li class="header_list"><img src="img/circle.png" alt=""><a href="#">宿泊</a></li>
+            <li class="header_list"><img src="img/circle.png" alt=""><a href="#">お食事</a></li>
+            <li class="header_list"><img src="img/circle.png" alt=""><a href="#">ツアー</a></li>
+        </ul>
+    </header>
 
     <div id="top">
-        <div id="search">
+        <div id="search_wrap">
             <h2>こだわり検索</h2>
             <p>キーワード</p>
             <p>人数</p>
-            <div id="keyword">
-                <ul>
+            <div>
+                <ul id="keyword">
                     <li>レジャー</li>
                     <li>グルメ</li>
                     <li>芸能</li>
@@ -39,12 +39,13 @@
                     <li>季節</li>
                 </ul>
             </div>
-            <h3>検索する</h3>
+            <h3 id="search_more">検索する</h3>
         </div>
-        <div id="top-text">
-            <h1>そうだ、紅葉狩りに行こう</h1>
-            <h2>紅葉あふれる神秘的な世界へ</h2>
-            <h3>今なら早割<span id="math">50%</span>off</h3>
+        
+        <div id="text_wrap">
+            <h1>そうだ、紅葉狩りに行こう。</h1>
+            <h2>紅葉溢れる神秘的な世界へ</h2>
+            <h2 id="top_text">今なら早割で最大<span id="math">50%</span>off</h2>
             <a href="#">詳細を見る</a>
         </div>
     </div>
@@ -52,7 +53,9 @@
     <h2 class="title">ランキング</h2>
     <h3 class="subtitle">RANKING</h3>
 
-    <div id="content_outer">
+
+
+    <div class="content_outer">
 
         <div class="content">
             <img src="img/pic1.jpg" alt="">
@@ -85,6 +88,8 @@
                 </div>
                 <h2 class="content_title2">広島伝統芸能体験</h2>
             </div>
+        </div>
+        <div id="content_inner">
             <div class="content2">
                 <div>
                     <p class="content_img"></p>
@@ -112,9 +117,10 @@
     <h2 class="title">おすすめ特集</h2>
     <h3 class="subtitle">RECOMMENDATION</h3>
 
-    <div id="content_outer">
+    <div class="content_outer">
         <div class="content3">
             <img src="img/pic1.jpg" alt="">
+            <div class="underbar"></div>
             <h2 class="content_category3">体験</h2>
             <h2 class="content_title3">広島伝統芸能体験</h2>
             <p class="content_about3">広島に古くから伝えられている《伝統芸能》にスポットを当てた<br>カジュアル体験プログラムがついに登場！</p>
@@ -124,6 +130,7 @@
         </div>
         <div class="content3">
             <img src="img/pic1.jpg" alt="">
+            <div class="underbar"></div>
             <h2 class="content_category3">体験</h2>
             <h2 class="content_title3">広島伝統芸能体験</h2>
             <p class="content_about3">広島に古くから伝えられている《伝統芸能》にスポットを当てた<br>カジュアル体験プログラムがついに登場！</p>
@@ -144,7 +151,7 @@
                 <li>スポーツ</li>
             </ul>
         </div>
-        <div id="content_outer">
+        <div class="content_outer">
             <div class="content4">
                 <img src="img/pic1.jpg" alt="">
                 <div class="underbar2"></div>
